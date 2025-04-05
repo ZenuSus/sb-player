@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> video player </title>
+    <link rel="stylesheet" href="styles.css" >
+</head>
+
+<body>
+    <div class="dipsyk-video-player">
+        <div class="video-container">
+            <video id="dipsyk-video" src="https://file-examples.com/storage/fe2465184067ef97996fb41/2017/04/file_example_MP4_1920_18MG.mp4"></video>
+        </div>
+        <div class="controls">
+            <div class="progress-container" id="dipsyk-progress-container">
+                <div class="progress-bar" id="dipsyk-progress-bar"></div>
+            </div>
+            <div class="buttons">
+                <div class="left-buttons">
+                    <button id="dipsyk-play-btn">▶</button>
+                    <button id="dipsyk-mute-btn"></button>
+                    <div class="time"><span id="dipsyk-current-time">0:00</span> / <span id="dipsyk-duration">0:00</span></div>
+                </div>
+                <div class="right-buttons">
+                    <input type="range" id="dipsyk-volume" min="0" max="1" step="0.1" value="1">
+                    <button id="dipsyk-fullscreen-btn">⛶</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js" ></script>
+
+</body>
+
+</html>
